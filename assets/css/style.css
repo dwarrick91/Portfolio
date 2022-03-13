@@ -14,6 +14,19 @@ display: flex;
 justify-content: space-between;
 background-color: #17778A;
 align-items: center;
+width: 100%;
+height: 5%;
+}
+figure {
+    width: 100%;
+
+}
+article {
+    width: 100%;
+    
+}
+footer {
+    width: 100%;
 
 }
 
@@ -32,31 +45,54 @@ figure {
     margin: 75px
 }
 
-h1 { padding: ;}
-
-h3 {
-    position: absolute;
-    margin: 475px 0 0 0
-}
-
-
 .projects {
     display: flex;
-    justify-content: space-between;
-    
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 300px 0 186;
 }
-.one {
-    padding: 0 0 0 500px;
-}
-.projects img{ 
-    
-    height: 500px;
-    width: 750px;
-    
-}
-#project-one {
-    display: flex;
-    float: inline-end;
-    width: 500px;
+h2 {position: relative;
+padding: 0 0 0 100px;
 
 }
+h3 {position: absolute;
+float: left;
+padding: 0 0 0 0}
+.one {
+    height: 300px;
+    padding: 0 300px 0 186px
+}
+h2, .projects{
+    display: flex;
+}
+
+.two, .four {
+    padding: 0 0 0 186px;
+}
+.three, .five {
+    padding: 0 186px 0 0
+}
+
+#project-one {
+    height: 300px ;
+    width: 616px ;
+}
+#two, #three, #four, #five {
+    height: 140px ;
+    width: 308px;
+}
+
+.work{
+    position: absolute;
+    padding: 0 0 538px 107px;
+    border-right: solid;
+ 
+}
+
+
+
+
+
+
+
