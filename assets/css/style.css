@@ -23,10 +23,13 @@ figure {
 }
 article {
     width: 100%;
+    display: flex;
     
 }
 footer {
     width: 100%;
+    display: flex;
+    padding: 0 0 0 0
 
 }
 
@@ -45,7 +48,7 @@ figure {
     margin: 75px
 }
 
-.projects {
+.projects{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -53,7 +56,7 @@ figure {
     padding: 0 300px 0 186;
 }
 h2 {position: relative;
-padding: 0 0 0 100px;
+padding: 0 0 0 97px;
 
 }
 h3 {position: absolute;
@@ -82,12 +85,25 @@ h2, .projects{
     height: 140px ;
     width: 308px;
 }
-
+.about {
+    position:relative;
+    padding 0 0 0 0;
+    border-right: solid
+}
 .work{
     position: absolute;
     padding: 0 0 538px 107px;
     border-right: solid;
  
+}
+.paragraph {
+    position: relative;
+    padding: 0 0 0 186px;
+}
+.contact {
+    position: relative;
+    border-right: solid;
+    padding: 0 0 0 0
 }
 
 
