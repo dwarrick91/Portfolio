@@ -1,24 +1,21 @@
-* {
-    background: #17778A ;
-    font-family: sans-serif;
-    box-sizing: border-box;
-}
+/* 
 body {
     background:  #64e8d9;
     font-size: 16px;
     font-family: sans-serif;
 }
-header {
-margin: 0;
+ header {
+ margin: 0;
 display: flex;
 justify-content: space-between;
 background-color: #17778A;
 align-items: center;
 width: 100%;
 height: 5%;
-}
+} 
 figure {
     width: 100%;
+    height: 
 
 }
 article {
@@ -32,6 +29,9 @@ footer {
     padding: 0 0 0 0
 
 }
+
+#banner {
+    height: 200px}
 
 .navbar ul {
     margin: 10px;
@@ -48,19 +48,94 @@ figure {
     margin: 75px
 }
 
+
+.about {
+    position:relative;
+    padding 0 0 0 0;
+    border-right: solid
+}
+
+.paragraph {
+    position: relative;
+    padding: 0 0 0 186px;
+}
+.contact {
+    position: relative;
+    border-right: solid;
+    padding: 0 0 0 0
+} */
+#banner-image {
+    background-image: url("./../images/Linkedin.jpg");
+    background-position: center;
+    
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100%;
+    background-color: #17778A;
+}
+
+html, body {
+    height: 100%;
+}
+
+header {
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+.navbar ul{
+    list-style: none;
+    
+}
+
+.about {
+    display: flex;
+    position: absolute;
+    margin: -35px 0 0px 91px
+
+}
+
+#paragraph-one {
+    position: relative;
+    margin: 0 150px 0 0;
+}
+
+.aboutMe {
+    padding: 0 13px 0 0;
+}
+
+/* .projects {
+    display: flex;
+    position: absolute;
+}
+
+.one {
+    position: relative;
+}
+
+#project-one {
+    width: 100%;
+    height: 800px;
+} */
 .projects{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
     padding: 0 300px 0 186;
+    margin: 60px 0 0 0; 
+    
 }
 h2 {position: relative;
 padding: 0 0 0 97px;
 
 }
-h3 {position: absolute;
+.job {position: absolute;
 float: left;
+float: bottom;
 padding: 0 0 0 0}
 .one {
     height: 300px;
@@ -72,43 +147,45 @@ h2, .projects{
 
 .two, .four {
     padding: 0 0 0 186px;
+    margin: -50px 0 0 0
 }
 .three, .five {
-    padding: 0 186px 0 0
+    padding: 0 186px 0 0;
+    margin: -50px 0 0 0;
 }
 
 #project-one {
-    height: 300px ;
+    height: 250px ;
     width: 616px ;
 }
 #two, #three, #four, #five {
     height: 140px ;
     width: 308px;
 }
-.about {
-    position:relative;
-    padding 0 0 0 0;
-    border-right: solid
-}
 .work{
     position: absolute;
-    padding: 0 0 538px 107px;
+    padding: 0 19px 440px 90px;
     border-right: solid;
  
 }
-.paragraph {
-    position: relative;
-    padding: 0 0 0 186px;
+.aboutMe {
+    border-right: solid
 }
-.contact {
+
+.contact-list {
+    list-style: none;
+    display: inline;
+}
+
+.contactMe {
     position: relative;
+    padding: 0 0 0 0;
     border-right: solid;
-    padding: 0 0 0 0
+}
+
+.contact {display: flex;
 }
 
 
 
-
-
-
-
+ */ */
