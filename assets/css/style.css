@@ -95,6 +95,9 @@ h2, .projects{
 #project-one {
     height: 250px ;
     width: 616px ;
+    filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+    style
 }
 #two, #three, #four, #five {
     height: 140px ;
@@ -122,10 +125,19 @@ h2, .projects{
 .contact {display: flex;
 }
 
+#project-one:hover  {
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    image-rendering:crisp-edges;
+    image-orientation: from-image;
+    
+    
+}
 @media screen and (max-width: 768px) {
     .navbar ul {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         margin: -60px -250px 0 0 ;
     }
     #banner-image {
@@ -135,7 +147,7 @@ h2, .projects{
         background-repeat: no-repeat;
         height: 166px;
         width: 96%;
-        margin: -67px 0 0 0;
+        margin: -67px 0 0 80px;
     }
     /* .about {
         display: flex;
