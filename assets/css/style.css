@@ -1,95 +1,44 @@
-/* 
+html, body {
+    height: 100%;
+}
 body {
     background:  #64e8d9;
     font-size: 16px;
     font-family: sans-serif;
 }
- header {
- margin: 0;
-display: flex;
-justify-content: space-between;
-background-color: #17778A;
-align-items: center;
-width: 100%;
-height: 5%;
-} 
-figure {
-    width: 100%;
-    height: 
-
-}
-article {
-    width: 100%;
-    display: flex;
+#banner-image {
+    background-image: url("./../images/Linkedin.jpg");
+    background-position: center;
+    background-attachment:local;
+    background-repeat: no-repeat;
+    height: 166px;
+    width: 96%;
+    margin: -67px 0 0 0;
     
-}
-footer {
-    width: 100%;
-    display: flex;
-    padding: 0 0 0 0
 
 }
 
-#banner {
-    height: 200px}
+h1 {position: relative;}
 
+
+
+header {
+    height: 20%;
+    margin: 2px 0 17px 0px;
+}
 .navbar ul {
-    margin: 10px;
+    margin: -60px 0 0 0;
     display: flex;
     list-style: none;
     font-weight: bolder;
     text-decoration: #E75C00;
-}
-.navbar a {
-    margin: 10px;
+    float:right;
 }
 
-figure {
-    margin: 75px
+li a {
+    padding: 0 14px 0 0;
 }
 
-
-.about {
-    position:relative;
-    padding 0 0 0 0;
-    border-right: solid
-}
-
-.paragraph {
-    position: relative;
-    padding: 0 0 0 186px;
-}
-.contact {
-    position: relative;
-    border-right: solid;
-    padding: 0 0 0 0
-} */
-#banner-image {
-    background-image: url("./../images/Linkedin.jpg");
-    background-position: center;
-    
-    background-repeat: no-repeat;
-    height: 100px;
-    width: 100%;
-    background-color: #17778A;
-}
-
-html, body {
-    height: 100%;
-}
-
-header {
-    height: 20%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    position: relative;
-}
-
-.navbar ul{
-    list-style: none;
-    
-}
 
 .about {
     display: flex;
@@ -100,26 +49,15 @@ header {
 
 #paragraph-one {
     position: relative;
-    margin: 0 150px 0 0;
+    margin: 30px 148px 0 0;
 }
-
 .aboutMe {
-    padding: 0 13px 0 0;
+    border-right: solid;
+    padding: 6 10px 0 0
 }
 
-/* .projects {
-    display: flex;
-    position: absolute;
-}
 
-.one {
-    position: relative;
-}
 
-#project-one {
-    width: 100%;
-    height: 800px;
-} */
 .projects{
     display: flex;
     flex-direction: row;
@@ -130,7 +68,7 @@ header {
     
 }
 h2 {position: relative;
-padding: 0 0 0 97px;
+padding: 1px 10px 20px 0;
 
 }
 .job {position: absolute;
@@ -139,7 +77,7 @@ float: bottom;
 padding: 0 0 0 0}
 .one {
     height: 300px;
-    padding: 0 300px 0 186px
+    padding: 20px 300px 0 186px
 }
 h2, .projects{
     display: flex;
@@ -168,24 +106,21 @@ h2, .projects{
     border-right: solid;
  
 }
-.aboutMe {
-    border-right: solid
-}
+
 
 .contact-list {
     list-style: none;
-    display: inline;
+    padding: 42px 0px 0px 284px
 }
 
 .contactMe {
     position: relative;
-    padding: 0 0 0 0;
+    padding: 5px 3px 0 64px;
     border-right: solid;
 }
 
 .contact {display: flex;
 }
 
-
-
- */ */
+ 
+    
