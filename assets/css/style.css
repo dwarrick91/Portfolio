@@ -1,193 +1,4 @@
-/* html, body {
-    height: 100%;
-}
-body {
-    background:  #64e8d9;
-    font-size: 16px;
-    font-family: sans-serif;
-}
-#banner-image {
-    background-image: url("./../images/Linkedin.jpg");
-    background-position: center;
-    background-attachment:local;
-    background-repeat: no-repeat;
-    height: 166px;
-    width: 96%;
-    margin: -67px 0 0 0;
-    
-
-}
-
-h1 {position: relative;}
-
-
-
-header {
-    height: 20%;
-    margin: 2px 0 17px 0px;
-}
-.navbar ul {
-    margin: -60px 0 0 0;
-    display: flex;
-    list-style: none;
-    font-weight: bolder;
-    text-decoration: #E75C00;
-    float:right;
-}
-
-li a {
-    padding: 0 14px 0 0;
-}
-
-
-.about {
-    display: flex;
-    position: absolute;
-    margin: -35px 0 0px 91px
-
-}
-
-#paragraph-one {
-    position: relative;
-    margin: 30px 148px 0 0;
-}
-.aboutMe {
-    border-right: solid;
-    padding: 6 10px 0 0
-}
-
-
-
-.projects{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    padding: 0 300px 0 186;
-    margin: 60px 0 0 0; 
-    
-}
-h2 {position: relative;
-padding: 1px 10px 20px 0;
-
-}
-.job {position: absolute;
-float: left;
-float: bottom;
-padding: 0 0 0 0}
-.one {
-    height: 300px;
-    padding: 20px 300px 0 186px
-}
-h2, .projects{
-    display: flex;
-}
-
-.two, .four {
-    padding: 0 0 0 186px;
-    margin: -50px 0 0 0
-}
-.three, .five {
-    padding: 0 186px 0 0;
-    margin: -50px 0 0 0;
-}
-
-#project-one {
-    height: 250px ;
-    width: 616px ;
-    filter: grayscale(100%);
-    -webkit-transition: all 1s ease;
-    style
-}
-#two, #three, #four, #five {
-    height: 140px ;
-    width: 308px;
-}
-.work{
-    position: absolute;
-    padding: 0 19px 440px 90px;
-    border-right: solid;
- 
-}
-
-
-.contact-list {
-    list-style: none;
-    padding: 42px 0px 0px 284px
-}
-
-.contactMe {
-    position: relative;
-    padding: 5px 3px 0 64px;
-    border-right: solid;
-}
-
-.contact {display: flex;
-}
-
-#project-one:hover  {
-    filter: grayscale(0%);
-    filter: gray;
-    -webkit-filter: grayscale(0%);
-    image-rendering:crisp-edges;
-    image-orientation: from-image;
-    
-    
-}
-@media screen and (max-width: 768px) {
-    .navbar ul {
-        display: flex;
-        flex-direction: row;
-        margin: -60px -250px 0 0 ;
-    }
-    #banner-image {
-        background-image: url("./../images/Linkedin.jpg");
-        background-position: center;
-        background-attachment:local;
-        background-repeat: no-repeat;
-        height: 166px;
-        width: 96%;
-        margin: -67px 0 0 80px;
-    }
- 
-    .projects{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 100%;
-        margin: 129px 0 0 0; 
-        
-    }
-
-        .one {
-            height: 300px;
-            padding: 20px 300px 0 186px
-        }
-        .two, .four {
-            padding: 0 0 0 186px;
-            margin: -50px 0 -47px 308px
-        }
-        .three, .five {
-            padding: 0 186px 0 0;
-            margin: -50px 0 0 185px;
-        }
-        #three {
-            margin: 0 0 0 0;
-        }
-
-    
-
-}
-    
-
-     */
-
-   * { 
-       box-sizing: border-box;
-       padding: 0;
-       margin: 0;
-   }
-
+/* Header stylings */
    .header {
        padding: 20px;
        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -205,9 +16,274 @@ h2, .projects{
     background-repeat: no-repeat;
     height: 17rem;
    }
+   /* Navbar stylings */
    .navbar {
        list-style: none;
        display: flex;
    }
+   li {
+       margin-right: 2em;
+   }
+/* Article stylings */
+   .about {
+       display: flex;
+       margin-left: 10rem;
+   }
+
+   .aboutMe {
+       display: flex;
+       position: relative;
+       align-items: center;
+   }
+
+   #paragraph-one {
+       margin: 0 18rem 0 5rem;
+       border-left: solid;
+       padding-left: 1rem;
+   }
+/* Main stylings */
+   .projects {
+       display: flex;
+       flex-wrap: wrap;
+       margin-left: 10rem;
+   }
+   
+
+   .work {
+       display: flex;
+       position: relative;
+       align-items: center;
+   }
+
+   .job {
+       display: flex;
+       flex-wrap: wrap;
+       position: relative;
+       padding: 0 2.5rem 0 0;
+       
+   }
+   .images {
+       height: 40vh;
+       flex-grow 1;
+       list-style: none;
+
+   }
+
+   .one, .two{
+       max-height: 100%;
+       min-width: 100%;
+       object-fit: cover;
+       vertical-align: bottom;
+   }
 
 
+
+        #project-one {
+            height: auto;
+            width: auto;
+            max-width: 1000px;
+            max-height: 400px;
+            order: 1;
+            filter: grayscale(100%);
+            -webkit-transition: all 1s ease;
+            style
+        }
+        #project-one:hover  {
+            filter: grayscale(0%);
+            filter: gray;
+            -webkit-filter: grayscale(0%);
+            image-rendering:crisp-edges;
+            image-orientation: from-image;
+        }
+        .two {
+            height: 50%;
+            width: 12.8rem;
+            order: 2;
+            vertical-align: bottom;
+        }
+
+        .sample {
+            margin: 1rem 0 0 5.35rem;
+       border-left: solid;
+       padding-left: 1rem;
+        }
+/* Footer stylings */
+        .contact {
+            display: flex;
+            margin-left: 10rem
+        }
+
+        .contact-list {
+            list-style: none;
+            display: flex;
+            padding-left: 24rem;
+            font-size: 20px;
+            font-family: cursive;
+        }
+   
+        
+       
+            /* Tablet */
+ @media screen and (max-width: 768px) {
+            /*Navbar tablet  */
+    .navbar ul {
+                display: flex;
+                flex-direction: row;
+            }
+            /* Article tablet */
+                .about {
+                    display: flex;
+                    margin: 0;
+                }
+             
+                .aboutMe {
+                    display: flex;
+                    position: relative;
+                    align-items: center;
+                }
+             
+                #paragraph-one {
+                    margin: 0 0rem 0 0rem;
+                    border-left: solid;
+                    padding-left: 1rem;
+                }
+                /* Main Tablet */
+                .projects {
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-left: 0;
+                }
+             
+                .work {
+                    display: flex;
+                    position: relative;
+                    align-items: center;
+                }
+             
+                .job {
+                    display: flex;
+                    flex-wrap: wrap;
+                    position: relative;
+                    padding: 0 0 0 0;
+                    
+                }
+                .images {
+                    height: 40vh;
+                    flex-grow 1;
+                    list-style: none;
+             
+                }
+             
+                .one, .two{
+                    max-height: 100%;
+                    min-width: 100%;
+                    object-fit: cover;
+                    vertical-align: bottom;
+                }
+             
+             
+             
+                     #project-one {
+                         height: auto;
+                         width: auto;
+                         max-width: 1000px;
+                         max-height: 400px;
+                         order: 1;
+                         filter: grayscale(100%);
+                         -webkit-transition: all 1s ease;
+                         style
+                     }
+                     #project-one:hover  {
+                         filter: grayscale(0%);
+                         filter: gray;
+                         -webkit-filter: grayscale(0%);
+                         image-rendering:crisp-edges;
+                         image-orientation: from-image;
+                     }
+                     .two {
+                         height: 50%;
+                         width: 12.8rem;
+                         order: 2;
+                         vertical-align: bottom;
+                     }
+             
+                     .sample {
+                         margin: 1rem 0 0 5.35rem;
+                    border-left: solid;
+                    padding-left: 1rem;
+                     }
+                     /* Footer Tablet */
+                     .contact {
+                        display: flex;
+                        margin-left: 0
+                    }
+            
+                    .contact-list {
+                        list-style: none;
+                        display: flex;
+                        padding-left: 15rem;
+                        font-size: 20px;
+                        font-family: cursive;
+                    }
+
+}
+                /* Mobile */
+            @media screen and (max-width: 320px) { 
+                
+                 .navbar ul {
+                                display: flex;
+                                flex-direction: column;
+                            }
+                            /* Article mobile */
+                                .about {
+                                    display: flex;
+                                    margin: 0;
+                                }
+                             
+                                .aboutMe {
+                                    display: flex;
+                                    position: relative;
+                                    align-items: center;
+                                }
+                             
+                                #paragraph-one {
+                                    margin: 0 0rem 0 0rem;
+                                    border-left: solid;
+                                    padding-left: 1rem;
+                                    flex: 1;
+                                    font-weight: bolder;
+                                }
+                                /* Main Mobile */
+                                .projects {
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    margin-left: 0;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                }                             
+                                     .sample {
+                                         margin: 1rem 0 0 0rem;
+                                    border-left: solid;
+                                    padding-left: 1rem;
+                                     }
+                                     /* Footer Mobile */
+                                     .contact {
+                                        display: flex;
+                                        margin-left: 0
+                                    }
+                            
+                                    .contact-list {
+                                        list-style: none;
+                                        display: flex;
+                                        padding-left: 15rem;
+                                        font-size: 20px;
+                                        font-family: cursive;
+                                    }
+                
+
+                }
+
+        
+                    
+
+           
