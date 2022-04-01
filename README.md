@@ -18,6 +18,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 Wrote html to develope structure of page.
 applied CSS to html to make it more presentable.
+Used Materialize CSS
 
 ## Usage
 
