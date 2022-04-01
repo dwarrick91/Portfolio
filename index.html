@@ -6,15 +6,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
 
-  <header class="header" >
-    <h1 id="banner-image">David Warrick</h1>
-    <nav >
-      <ul class="navbar">
+
+  <header class="nav-wrapper row">
+    
+    <figure id="banner-image" ></figure>
+    <h1 class="brand-logo">David Warrick</h1>
+    <nav>
+      
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li>
           <a href="#about">About me</a>
         </li>
@@ -25,16 +30,16 @@
           <a href="#contact">Contact Me</a>
         </li>
         <li>
-          <a href="#resume">Resume</a>
+          <a href="https://drive.google.com/file/d/13UCva8mwTzxD8bFvZCHREAAOSz7qzq5l/view?usp=sharinge">Resume</a>
         </li>
 
       </ul>
     </nav>
-    
+
   </header>
 
 
-  <article class="about">
+  <article class="about row">
     <h2 class="aboutMe" id="about">About Me</h2>
     <p id="paragraph-one">Hello my name is David Warrick. I have a wife and three beautiful children.
       I have my bachelor's degree from Shippensburg University in Accounting, which
@@ -43,45 +48,51 @@
       page. </p>
 
   </article>
-  <main class="projects" id="work">
+  <main class="projects row" id="work">
     <h2 class="work">Work </h2>
-    <section class="sample">
-      <h3 class="job">Horiseon</span></h3>
-      <a href="https://dwarrick91.github.io/Horiseon-accessibility-optimization/">
-        <img class="two" id="project-one" src="./assets/images/dwarrick91.github.io_Horiseon-accessibility-optimization_.png" alt="Project1">
+    <section class="col">
+    <section class="row">
+      <a href="https://dwarrick91.github.io/Secure_Password_Generator/" <span> Secure Password Generator </span>
+        <img class= id="project-one" src="./assets/images/03-javascript-homework-demo.png"
+          alt="Secure password Generator">
       </a>
     </section>
-    <section class="job">
-      <h3 class="job">COMING SOON!</h3>
-      <a href="#">
-        <img class="two" src="./assets/images/tolu-olubode-PlBsJ5MybGc-unsplash.jpg" alt="Project2">
-      </a>
+    <section class="row">
+      <section class="col s12 l6 ">
+          <h6></h6>
+        <a href="https://dwarrick91.github.io/Horiseon-accessibility-optimization/" <span>Horiseon</span>
+          <img class=" job col collection-item" src="./assets/images/dwarrick91.github.io_Horiseon-accessibility-optimization_.png"
+            alt="Horiseon-accessibility-optimization">
+        </a>
+      </section>
+      <section class="col l6">
+        <a href="#" <span>COMING SOON!</span>>
+          <img class=" job col collection-item" src="./assets/images/tolu-olubode-PlBsJ5MybGc-unsplash.jpg" alt="Project3">
+        </a>
+      </section>
     </section>
-    <section class="job">
-      <h3 class="job">COMING SOON!</h3>
-      <a href="#">
-        <img class="two" src="./assets/images/tolu-olubode-PlBsJ5MybGc-unsplash.jpg" alt="Project3">
-      </a>
+    <section class="row">
+      <section class="col m6">
+
+        <a href="#" <span>COMING SOON!</span>>
+          <img class=" job col collection-item" src="./assets/images/tolu-olubode-PlBsJ5MybGc-unsplash.jpg" alt="Project4">
+        </a>
+      </section>
+      <section class="col m6 ">
+
+        <a href="#" <span>COMING SOON!</span>>
+          <img class=" job col collection-item" src="./assets/images/tolu-olubode-PlBsJ5MybGc-unsplash.jpg" alt="Project5">
+        </a>
+      </section>
     </section>
-    <section class="job">
-      <h3 class="job">COMING SOON!</h3>
-      <a href="#">
-        <img class="two" src="./assets/images/tolu-olubode-PlBsJ5MybGc-unsplash.jpg" alt="Project4">
-      </a>
-    </section>
-    <section class="job">
-      <h3 class="job">COMING SOON!</h3>
-      <a href="#">
-        <img class="two" src="./assets/images/tolu-olubode-PlBsJ5MybGc-unsplash.jpg" alt="Project5">
-      </a>
     </section>
 
   </main>
-  <footer class="contact" id="contact">
+  <footer class="contact row center-align" id="contact">
     <h4 class="contactMe">Contact Me</h4>
     <ul class="contact-list">
       <li>
-        <a href="dlwwebdevolpment@gmail.com">dlwwebdevolpment@gmail.com</a>
+        <a class="col 4s" href="dlwwebdevolpment@gmail.com">dlwwebdevolpment@gmail.com</a>
         <a href="https://github.com/dwarrick91">GitHub</a>
         <a href="www.linkedin.com/in/david-warrick-424777165">Linkedin</a>
       </li>
