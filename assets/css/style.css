@@ -61,42 +61,26 @@
        display: flex;
        position: relative;
        align-items: center;
-       .centered {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
+    
+       
    }
 
    .job {
-       display: flex;
-       flex-wrap: wrap;
-       position: relative;
-       padding: 0 2.5rem 0 0;
-       width: 50%
+     
        
+       height: auto;
+       width: 100%;
+        max-width: 340px;    
+        max-height: 206.95px;   
    }
-   .images {
-       height: 40vh;
-       flex-grow 1;
-       list-style: none;
-
-   }
-
-   .one, .two{
-       max-height: 100%;
-       min-width: 100%;
-       object-fit: cover;
-       vertical-align: bottom;
-   }
+  
 
 
 
         #project-one {
             height: auto;
-            width: auto;
-            max-width: 1000px;
+            width: 100%;
+            max-width: 1200px;
             max-height: 400px;
             order: 1;
             filter: grayscale(100%);
@@ -109,35 +93,10 @@
             -webkit-filter: grayscale(0%);
             image-rendering:crisp-edges;
             image-orientation: from-image;
-        }
-        .two {
-            height: 50%;
-            width: 12.8rem;
-            order: 2;
-            vertical-align: bottom;
-        }
-
-        .sample {
-            margin: 1rem 0 0 5.35rem;
-       border-left: solid;
-       padding-left: 1rem;
-        }
-/* Footer stylings */
-        .contact {
-            display: flex;
-            margin-left: 10rem
-        }
-
-        .contact-list {
-            list-style: none;
-            display: flex;
-            padding-left: 24rem;
-            font-size: 20px;
-            font-family: cursive;
-        }
-   
+        }       
         
-       
+   
+    
             /* Tablet */
  @media screen and (max-width: 768px) {
             /*Navbar tablet  */
@@ -182,20 +141,7 @@
                     padding: 0 0 0 0;
                     
                 }
-                .images {
-                    height: 40vh;
-                    flex-grow 1;
-                    list-style: none;
-             
-                }
-             
-                .one, .two{
-                    max-height: 100%;
-                    min-width: 100%;
-                    object-fit: cover;
-                    vertical-align: bottom;
-                }
-             
+                          
              
              
                      #project-one {
@@ -215,39 +161,18 @@
                          image-rendering:crisp-edges;
                          image-orientation: from-image;
                      }
-                     .two {
-                         height: 50%;
-                         width: 12.8rem;
-                         order: 2;
-                         vertical-align: bottom;
-                     }
-             
-                     .sample {
-                         margin: 1rem 0 0 5.35rem;
-                    border-left: solid;
-                    padding-left: 1rem;
-                     }
-                     /* Footer Tablet */
-                     .contact {
-                        display: flex;
-                        margin-left: 0
-                    }
-            
-                    .contact-list {
-                        list-style: none;
-                        display: flex;
-                        padding-left: 15rem;
-                        font-size: 20px;
-                        font-family: cursive;
-                    }
+                    
+                  
+                   
 
 }
                 /* Mobile */
             @media screen and (max-width: 320px) { 
                 
-                 .navbar ul {
-                                display: flex;
-                                flex-direction: column;
+                .right {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
                             }
                             /* Article mobile */
                                 .about {
