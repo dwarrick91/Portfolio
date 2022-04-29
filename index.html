@@ -6,196 +6,159 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" integrity="sha512-UJfAaOlIRtdR+0P6C3KUoTDAxVTuy3lnSXLyLKlHYJlcSU8Juge/mjeaxDNMlw9LgeIotgz5FP8eUQPhX1q10A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./assets/css/style.css">
+  
 </head>
 
-<body>
-
-<!-- 
-  <header class="nav-wrapper row">
-
-  
-    <h1 class="brand-logo">David Warrick</h1>
-    <nav>
-
-      <ul id="nav-mobile" class="right">
-        <li>
-          <a href="#about">About me</a>
-        </li>
-        <li>
-          <a href="#work">Work</a>
-        </li>
-        <li>
-          <a href="#contact">Contact Me</a>
-        </li>
-        <li>
-          <a href="https://drive.google.com/file/d/13UCva8mwTzxD8bFvZCHREAAOSz7qzq5l/view?usp=sharinge">Resume</a>
-        </li>
-
-      </ul>
-    </nav>
-
-  </header> -->
   <nav>
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo">David Warrick</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="#about">Sass</a></li>
-        <li><a href="#work">Components</a></li>
-        <li><a href="#contact">JavaScript</a></li>
-        <li>
-          <a href="https://drive.google.com/file/d/13UCva8mwTzxD8bFvZCHREAAOSz7qzq5l/view?usp=sharinge">Resume</a>
+    <div class="nav-wrapper header">
+      <a href="#!" class="brand-logo">David Warrick</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="https://drive.google.com/file/d/13UCva8mwTzxD8bFvZCHREAAOSz7qzq5l/view?usp=sharinge">Resume</a>
         </li>
       </ul>
     </div>
+    
   </nav>
-        
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="#about">About</a></li>
+    <li><a href="#work">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="https://drive.google.com/file/d/13UCva8mwTzxD8bFvZCHREAAOSz7qzq5l/view?usp=sharinge">Resume</a></li>
+  </ul>
+  
+  <div class="row" style="background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,179,160,1) 31%, rgba(0,212,255,1) 100%);;" >
+    <div class="col" style="background-color: black">
+      <div class="card">
+        <div class="card-image profilePic col">
+          <img src="./assets/images/Linkedin.jpg">
+          <span class="card-title"></span>
+        </div>
+        <div class="card-content row" style="background-color: darkgrey;">
+          <p>Hello my name is David Warrick. I have a wife and three beautiful children. I
+            most recently made a change to become a web-developer, which better suits my interests. I am currently
+            studying
+            Full Stack Web Development, through the University of Pennsylvania. Before I started this new journey I
+            obtained
+            bachelor's degree from Shippensburg University in Accounting, which
+            I obtained in 2013. comprised on this webpage are links to some of my best work, as well as ways to contact
+            me on
+            the bottom of the
+            page.</p>
+        </div>
 
-  <article class="about row">
-    <h2 class="aboutMe col m3" id="about">About Me</h2>
-    <p class="col m9" id="paragraph-one">Hello my name is David Warrick. I have a wife and three beautiful children.
-      I have my bachelor's degree from Shippensburg University in Accounting, which
-      I obtained in 2013. I most recently made a change to become a web-developer, which better suits my interests.
-      comprised on this webpage are links to some of my best work, as well as ways to contact me on the bottom of the
-      page. </p>
-
-  </article>
-  <main class="projects row" id="work">
+      </div>
+    </div>
+  </div>
+  
+  <main>
 
 
     <section class="row">
-      <h2 class="work col m4">Work</h2>
-      <!-- <section class="col m7 border">
-        <a href="https://dwarrick91.github.io/Pandemic-Blight/" <span> Box-Office-Blight</span>
-          <img id="project-one"
-            src="./assets/images/screencapture-dwarrick91-github-io-Pandemic-Blight-2022-04-01-13_11_32.png"
-            alt="Box-Office-Blight">
-        </a> -->
-       <section class="col m8">
-         <section class="row">
-          <div class="col s12 m7">
+      <h2>Projects</h2>
+
+      <section class="col">
+        <section class="row">
+          <div class="col ">
             <div class="card large">
               <div class="card-image">
-                <a href="https://dwarrick91.github.io/Pandemic-Blight">
-                <img src="./assets/images/screencapture-dwarrick91-github-io-Pandemic-Blight-2022-04-01-13_11_32.png">
-                <span class="card-title">Box-Office Blight</span>
-              </a>
+                <a href="https://boiling-journey-11904.herokuapp.com/">
+                  <img src="./assets/images/profilePageCompletedWorkoutForm.png">
+                  <span class="card-title">FitnessPal</span>
+                </a>
               </div>
               <div class="card-content">
-                <p>I am a very simple card. I am good at containing small bits of information.
-                I am convenient because I require little markup to use effectively.</p>
+                <p>Website that tracks helps individuals keep track of their workouts</p>
               </div>
               <div class="card-action">
-                
+
               </div>
             </div>
           </div>
         </section>
-        
-          <div class="col m6">
-            <div class="card small">
-              <div class="card-image">
-                <a href="https://dwarrick91.github.io/Horiseon-accessibility-optimization/">
+
+        <div class="col m6">
+          <div class="card small">
+            <div class="card-image">
+              <a href="https://dwarrick91.github.io/Horiseon-accessibility-optimization/">
                 <img src="./assets/images/dwarrick91.github.io_Horiseon-accessibility-optimization_.png">
                 <span class="card-title">Horiseon</span>
               </a>
-              </div>
-              <div class="card-content">
-                <p>I am a very simple card. I am good at containing small bits of information.
-                I am convenient because I require little markup to use effectively.</p>
-              </div>
-              <div class="card-action">
-                
-              </div>
+            </div>
+            <div class="card-content">
+              <p>My first deployed website specializes in semantic Html.</p>
+            </div>
+            <div class="card-action">
+
             </div>
           </div>
-          <div class="col m6">
-            <div class="card small">
-              <div class="card-image">
-                <a href="https://dwarrick91.github.io/Secure_Password_Generator/">
+        </div>
+        <div class="col m6">
+          <div class="card small">
+            <div class="card-image">
+              <a href="https://dwarrick91.github.io/Secure_Password_Generator/">
                 <img src="./assets/images/03-javascript-homework-demo.png">
                 <span class="card-title">Secure Password Generator</span>
               </a>
-              </div>
-              <div class="card-content">
-                <p>I am a very simple card. I am good at containing small bits of information.
-                I am convenient because I require little markup to use effectively.</p>
-              </div>
-              <div class="card-action">
-                
-              </div>
+            </div>
+            <div class="card-content">
+              <p>Password generator application that will create a password from 8 to 128 characters!
+              </p>
+            </div>
+            <div class="card-action">
+
             </div>
           </div>
-      
+        </div>
 
+        </div>
+        </div>
+        </div>
+        <div class="col m6">
+          <div class="card small">
+            <div class="card-image">
+              <a href="https://boiling-journey-11904.herokuapp.com/">
+                <img src="./assets/images/homepage.png">
+                <span class="card-title"></span>
+              </a>
+            </div>
+            <div class="card-content">
+              <p>Application developed to write blogs on technology that interests individual users. </p>
+            </div>
+            <div class="card-action">
 
-        <!-- <section class="col m6 portfolio">
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="col m6">
+          <div class="card small">
+            <div class="card-image">
+              <a href="https://dwarrick91.github.io/Pandemic-Blight">
+                <img src="./assets/images/screencapture-dwarrick91-github-io-Pandemic-Blight-2022-04-01-13_11_32.png">
+                <span class="card-title">Box Office Blight</span>
+              </a>
+            </div>
+            <div class="card-content">
+              <p></p>
+            </div>
+            <div class="card-action">
 
-          <a href="https://dwarrick91.github.io/Horiseon-accessibility-optimization/" <span>Horiseon</span>
-            <img class="job" src="./assets/images/dwarrick91.github.io_Horiseon-accessibility-optimization_.png"
-              alt="Horiseon-accessibility-optimization">
-          </a>
-        </section> -->
-        <!-- <section class="col m6 portfolio">
-          <a href="https://dwarrick91.github.io/Secure_Password_Generator/" <span>Secure Password Generator</span>>
-            <img class="job" src="./assets/images/03-javascript-homework-demo.png" alt="Secure password Generator">
-          </a>
-        </section> -->
-
-      </div>
-    </div>
-  </div>
-  <div class="col m6">
-    <div class="card small">
-      <div class="card-image">
-        <a href="#">
-        <img src="./assets/images/tolu-olubode-PlBsJ5MybGc-unsplash.jpg">
-        <span class="card-title">Coming Soon!</span>
-      </a>
-      </div>
-      <div class="card-content">
-        <p>I am a very simple card. I am good at containing small bits of information.
-        I am convenient because I require little markup to use effectively.</p>
-      </div>
-      <div class="card-action">
-        
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-<div class="col m6">
-<div class="card small">
-  <div class="card-image">
-    <a href="#">
-    <img src="./assets/images/tolu-olubode-PlBsJ5MybGc-unsplash.jpg">
-    <span class="card-title">Coming Soon!</span>
-  </a>
-  </div>
-  <div class="card-content">
-    <p>I am a very simple card. I am good at containing small bits of information.
-    I am convenient because I require little markup to use effectively.</p>
-  </div>
-  <div class="card-action">
-    
-  </div>
-</div>
-</div>
-        <!-- <section class="col m6 portfolio">
-
-          <a href="#" <span>COMING SOON!</span>>
-            <img class="job" src="./assets/images/tolu-olubode-PlBsJ5MybGc-unsplash.jpg" alt="Project4">
-          </a>
-        </section>
-        <section class="col m6 portfolio ">
-
-          <a href="#" <span>COMING SOON!</span>>
-            <img class="job" src="./assets/images/tolu-olubode-PlBsJ5MybGc-unsplash.jpg" alt="Project5">
-          </a>
-        </section>
-      </section> -->
+            </div>
+            <p></p>
+          </div>
+        </div>
 
 
 
@@ -210,16 +173,17 @@
         <div class="col l4 offset-l2 s12">
           <h5 class="white-text">Links</h5>
           <ul>
-            <li><a class="text-color"  href="#!">dlwwebdevolpment@gmail.com</a></li>
-            <li><a class="text-color"  href="#!">GitHub</a></li>
-            <li><a class="text-color" href="#!">Linkedin</a></li>
+            <li><a class="text-color"  href="mailto:dwarrick91@gmail.com">dwarrick91@gmail.com</a></li>
+            <li><a class="text-color" href="http://github.com/dwarrick91">GitHub</a></li>
+            <li><a class="text-color" href="http://linkedin.com/in/david-warrick-424777165">Linkedin</a></li>
           </ul>
         </div>
       </div>
     </div>
-
-
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js" integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" integrity="sha512-NiWqa2rceHnN3Z5j6mSAvbwwg3tiwVNxiAQaaSMSXnRRDh5C2mk/+sKQRw8qjV1vN4nf8iK2a0b048PnHbyx+Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/js/nav.js"></script>
 
 </body>
 
